@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main-1{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.m1,.m2,.m3{
+    float: left;
+}
+.m1{
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+#mi1,#mi2,.m1 h1{
+    float: left;
+
+}
+#mi1{
+    margin-top: 23px;
+    margin-left: 30px;
+}
+#mi2{
+    float: right;
+    margin-right: 50px;
+    margin-top: 23px;
+}
+.m1 h1{
+    margin-left: 30px;
+    font-family: 'Merriweather', serif;
+}
+.m2{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.m2-1{
+    position: absolute;
+    width: 76%;
+    height: 100%;
+    background-color: rgb(255,224,189);
+}
+.m2-1-1{
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    background-color: white;
+}
+#i1,#i2,#i3{
+    position: absolute;
+    height: 30px;
+    width:30px;
+    float: left;
+    margin-left: 30px;
+}
+#i1{
+    margin-top: 150px;
+}
+#i2{
+    margin-top: 220px;
+}
+#i3{
+    margin-top: 290px;
+}
+#i4{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.m2-2{
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.m2-2 h1{
+    margin-left: 200px;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+.m2-2-books{
+    position: absolute;
+    width: 100%;
+    height: 74%;
+}
+.book1,.book2,.book3{
+    float: left;
+    width: 27%;
+    margin-left: 10px;
+    height: 90%;
+}
+.book1{
+    margin-left: 180px;
+}
+.book1 img,.book2 img,.book3 img{
+    height: 100%;
+    width: 50%;
+}
+.book1-1,.book1-2,.book1-3{
+    float: right;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    color: black;
+    overflow: auto;
+    font-family: 'Merriweather', serif;
+}
+.book1-1 a,.book1-2 a,.book1-3 a{
+    position: absolute;
+    color: black;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.m3{
+    display: block;
+    position: relative;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+#m3img1,#m3img2,.m3 p{
+    float: left;
+}
+#m3img2{
+    height: 80px;
+    width:80px;
+    margin-left: 120px;
+}
+#m3img1{
+    height: 40px;
+    width:40px;
+    margin-top: 19px;
+    margin-left: 24px;
+}
+.m3 p{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    margin-left: 20px;
+}
+audio{
+    margin-top: 10px;
+    width: 45%;
+    margin-left: 10px;
+}
+.main-2{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image:url("https://image.freepik.com/free-photo/light-brown-kraft-paper-texture-background_8087-1920.jpg");
+    background-size: 100% 100%;
+}
+.mb-1,.mb-2,.mb-3{
+    float: left;
+}
+.mb-1{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.mb-1 img,.mb-1 p,.mb-1 i{
+    float: left;
+    margin-top: 50px;
+}
+.mb-1 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 60px;
+}
+.mb-1 p{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    margin-left: 10px;
+    margin-top: 53px;
+}
+.mb-1 i{
+    float: right;
+    margin-right: 60px;
+}
+.mb-2{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 400px; 
+}
+.mb-2-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mb-2-1 p,.mb-2-details{
+    float: left;
+}
+#mb-2-1-p{
+font-size: 40px;
+font-weight: bold;
+margin-left: 40px;
+margin-top: 0px;
+font-family: 'Merriweather', serif;
+}
+#mb-2-1-caption{
+    font-size: 20px;
+}
+
+.mb-2-details{
+
+    display:none;
+    position: absolute;
+    width:60%;
+    height: 400px;
+    background-color: rgb(255,224,189);
+    background-color: white;
+    margin-left:480px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#p1{
+    font-size: 80px;
+}
+.mb-2-details img,.mb-2-d-1,.mb-2-d-2{
+    float: left;
+}
+.mb-2-details img{
+    height: 230px;
+    width: 150px;
+    margin-left: -70px;
+    margin-top: 100px;
+
+}
+#mb2dimg{
+    display: none;
+}
+#mb2dimg,#mb2aimg{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.mb-2-d-1{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin-left: 124px;
+
+}
+#mb-2-dh1{
+    font-size: 35px;
+}
+#mb-2-dp1{
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+#mb-2-dp2,#mb-2-dp3{
+    position: relative;
+    font-size: 15px;
+    margin-left: -180px;
+    margin-top: 70px;
+}
+#mb-2-dp3{
+    margin-left: 90px;
+}
+#mb-2-dp4{
+    position: relative;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.mb-2-d-2{
+
+    position: relative;
+    width: 15%;
+    height: 100%;
+    border-left: 1px solid rgb(163, 161, 161);
+
+}
+
+.mb-2-d-2 img,.mb-2-a-1 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.mb-2-d-2 p,.mb-2-a-1 p{
+ margin: 5px 20px 10px 40px;
+}
+
+.mb-2-animate{
+    display: none;
+    position: absolute;
+    width:60%;
+    height: 400px;
+    background-color: rgb(255,224,189);
+    background-color: white;
+    margin-left:480px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.mb-2-animate img,.mb-2-a-1,.mb-2-a-2{
+    float: left;
+}
+#mb2aimg{
+    display: none;
+    height: 230px;
+    width: 240px;
+    margin-left: -120px;
+    margin-top: 80px;
+}
+.mb-2-a-2{
+  display: none;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin-left: 20px;
+
+}
+.mb-2-a-2 p{
+    float: left;
+}
+.mb-2-a-1{
+    display: none;
+    position: relative;
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid rgb(163, 161, 161);
+    margin-left: 10px;
+}            
+.mb-3{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+    margin-top: 20px;
+}
+.mb-3 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+
